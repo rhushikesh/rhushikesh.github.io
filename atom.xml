@@ -4,7 +4,7 @@
   <title><![CDATA[Rhushikesh's Blog]]></title>
   <link href="http://rhushikesh.github.io/atom.xml" rel="self"/>
   <link href="http://rhushikesh.github.io/"/>
-  <updated>2014-12-10T20:42:57+05:30</updated>
+  <updated>2014-12-10T21:46:45+05:30</updated>
   <id>http://rhushikesh.github.io/</id>
   <author>
     <name><![CDATA[Rhushikesh Apte]]></name>
@@ -12,5 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I Went for Production Support. What Happened Next Blew My Mind!]]></title>
+    <link href="http://rhushikesh.github.io/blog/2014/12/10/i-went-for-production-support-what-happened-next-blew-my-mind/"/>
+    <updated>2014-12-10T21:00:53+05:30</updated>
+    <id>http://rhushikesh.github.io/blog/2014/12/10/i-went-for-production-support-what-happened-next-blew-my-mind</id>
+    <content type="html"><![CDATA[<p>The word “technical support” has a somewhat negative connotation in developer community. Most think of it as an arduous drag involving looking through piles of logs and stack traces, and taking random guesses. And that&rsquo;s the exact thing I thought before actually experiencing it myself in our project. It gave me a lot of learnings and changed my perspective towards software development and collaboration with other teams.</p>
+
+<p>For past couple of years, we (ThoughtWorks) have been developing a global web platform (CMS, localization, and other content creation tools) in collaboration with a dozen other vendors. For production support, instead of having special dedicated roles, various team members rotate amongst themselves, and take up the support role. In November 2014, I traveled to Istanbul for the same. On a sidenote, Istanbul is an incredibly scenic city, and if you haven’t visited it already, I highly recommend you add it to your bucket list.</p>
+
+<p>Since it is multi vendor team, we have to work with representatives from each team to provide support production issues.</p>
+
+<p>As I was a newbie to support work, I was a bit nervous about the various scenarios and difficulties I was (presumably) going to face. However, throughout the support, I learned loads of things, and found the whole experience interesting and educational. There were handful of stressful situations too, but overall the stint was pretty smooth.</p>
+
+<p>Here are the key learnings from the experience:</p>
+
+<ul>
+<li><strong>Empathy and trust -</strong></li>
+</ul>
+
+
+<p>The most important learning probably was that everything is not as straight forward for everyone as we seem to think. We need to accept first that everybody is giving their 100% and have their own problems to solve, and co-operate in the best way possible.</p>
+
+<ul>
+<li><strong>Communication -</strong></li>
+</ul>
+
+
+<p>You should keep calm and and not rush for any conclusion around the cause of issue. First make sure your own understanding about the issue and solution is clear, before communicating it to the clients. False communication will lead to more confusion and it will take more time for the issue to be resolved. Clear and proper communication brings everyone at same level with clear understanding about the issue and root cause of it. It helps everyone to take exact required steps reducing multiple back and forth.</p>
+
+<ul>
+<li><strong>Debuggability -</strong></li>
+</ul>
+
+
+<p>I agree that in support work you don&rsquo;t get a chance to develop any new feature but the best thing it gives is a chance to go through and debug your existing written code. Every time you do so, you think of <strong>different ways to improve your code</strong>. It’s not always enough to write correct logic in code because that data will work correctly only provided the correct data input to it. Projects like ours where your app is driven by highly interconnected data models coming from different parties, you can easily make silly mistakes at different levels and it’s not always possible to write data validations at every level of data entry. So it is likely to happen that your production issue will be a data issue, and not a code issue.</p>
+
+<p>The second lesson I learned was that your code should properly log various cases, along with sufficient temporal context. I think your code quality is not only defined by how well written your code is or how you follow programming standards or which all language and framework features you have used, but it also by how quickly you can debug your code. In production you have only application logs to look into. Logs are surely important but that doesn&rsquo;t mean you go and add logs every where with entire data. You should put logs with the useful exacted data and only at the specific events. We use <a href="http://www.sunitparekh.in/posts/structured-logging">structure logging</a> in our project, and I have found it to be very beneficial when dealing with huge application log files, especially in conjunction with tools like <a href="http://en.wikipedia.org/wiki/Splunk">Splunk</a>.</p>
+
+<ul>
+<li><strong>Improvization + Innovation = Profit!</strong></li>
+</ul>
+
+
+<p>Did I say that in support you don’t get an opportunity to develop? Well, I lied. ;-) When on support, I built a couple of applications that helped me in debugging and also provided me an opportunity to try out some new technologies. The lesson was that, although it is important to debug the issues properly and quickly, it is also important to try and improve the debugging process itself, so that it will not remain redundant. Before doing same thing twice or before debugging same type of issue again, you should wait and think why can&rsquo;t I write something and/or create an app which will do this repetitive and manual process for me. This is the time to let your creative juices flow. You can try new languages or new frameworks to solve your problems. It does not have to be a big application. Even small browser extensions may do the trick. There are many places where you can build these apps like for fetching data from some REST API, for comparison between input data, for posting data or tracking data in your application, and many more.</p>
+
+<p>The learnings I gained on this little adventure have been invaluable, and I believe, also helped me become a better developer.</p>
+
+<p>So, boys and girls, the next time your project manager asks you to go for production support, give him/her an enthusiastic nod and prepare to innovate!</p>
+
+<p align="middle">
+    <img src="http://rhushikesh.github.io/assets/images/keep_calm_and_support.png" alt="Keep Calm and Support" width = "400">
+</p>
+
+]]></content>
+  </entry>
   
 </feed>
