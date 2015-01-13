@@ -4,7 +4,7 @@
   <title><![CDATA[Rhushikesh's Blog]]></title>
   <link href="http://rhushikesh.github.io/atom.xml" rel="self"/>
   <link href="http://rhushikesh.github.io/"/>
-  <updated>2015-01-08T21:52:08+05:30</updated>
+  <updated>2015-01-13T23:53:03+05:30</updated>
   <id>http://rhushikesh.github.io/</id>
   <author>
     <name><![CDATA[Rhushikesh Apte]]></name>
@@ -25,14 +25,14 @@
 </p>
 
 
-<p>It was kind of scary. The thing which was working perfectly fine few minutes before, suddenly became malfunctioned. I was totally blank and clueless about what was happening. I went into panic mode without actually solving the issue. Then I took a pause and thought, lets first read and learn about it and then take an effective action rather than to keep trying here and there which will go in vain. Following are my finding, lessons and experiences which I got throughout the process of bringing my blog back to normal from position of being hacked.</p>
+<p>It was kind of scary. The thing which was working perfectly fine few minutes before, suddenly became malfunctioned. I was totally blank and clueless about what was happening. I went into panic mode without actually solving the issue. Then I took a pause and thought, lets first read and learn about it and then take an effective action rather than to keep trying here and there which will go in vain. Following are my findings, lessons and experiences which I got throughout the process of bringing my blog back to normal from position of being hacked.</p>
 
 <ul>
 <li><strong>The first tool you will come across  :</strong></li>
 </ul>
 
 
-<p>While crawling, When google finds any suspicious behaviour from your site, it lists your site as malfunctioned. For security reasons google prevents all users coming directly to site and also marked it under blacklist for search results. On the warning page itself google gives overview of what kind malwares are present on the site so that user should not know them all before landing on the page.</p>
+<p>While crawling, When google finds any suspicious behaviour from your site, it lists your site as malfunctioned. For security reasons google prevents all users coming directly to site and also marks it under blacklist for search results. On the warning page itself google gives an overview of what kind malwares are present on the site so that user should not know them all before landing on the page.</p>
 
 <p align="middle">
     <img src="http://rhushikesh.github.io/assets/images/google_dignositc_page.png" alt="Google dignositc page" width = "550">
@@ -47,31 +47,32 @@
 
 
 <ul>
-<li><p><strong>What kind of attacks are possible :</strong><br><br>So what does it means when someone says I got hacked. Hacking of content basically means any type of content put on your site without owner’s permission and which can potentially harm user and user’s data, in short it is result of security break on your site. As google keeps its user away from malicious sites, it will blacklist your site resulting low priority in search results. So it is always recommended to keep your site secure but this not the ideal world thats why the more important thing is that to clean up all the malware from your site as soon as possible. It will keep your sites search score as it is for google. following are the brief info about what kind of attacks are possible to your site</p>
+<li><p><strong>What kind of attacks are possible :</strong><br><br>So what does it means when someone says I got hacked. Hacking of content basically means any type of content put on your site without owner’s permission and which can potentially harm user and user’s data, in short it is result of security break on your site. As google keeps its user away from malicious sites, it will blacklist your site resulting low priority in search results. So it is always recommended to keep your site secure but this not the ideal world thats why the more important thing is that to clean up all the malware from your site as soon as possible. It will keep your sites search score as it is for google. following is the brief info about what kind of attacks are possible to your site</p>
 
 <ul>
-<li><p><strong>Redirects -</strong><br>In this attack hacker puts malicious code into your sites pages which will redirects user to targeted url. In this case target url could be anything which will affect your site’s brand value. In my case also hacker was redirecting user to his domain on which malware is hosted.</p></li>
-<li><p><strong>Injected content -</strong><br>In this attack hacker injects any malicious code into your pages. This could be very dangerous as it can potentially harm client by copying or manipulating clients data. I had come across multiple of these attacks on my site. The hacker had injected multiple eval() in theme template which was adding iframes with hacker’s malicious code. In other places hackers had injected iframes into my content not found page which was causing redirect to other sites.</p></li>
-<li><p><strong>Added content -</strong><br>In this attack hacker adds extra content into your site like pages, posts etc. In this case it will not harm your existing content but the newly added spammy content can cause your issues in your site’s search result.</p></li>
-<li><p><strong>Hidden content -</strong><br>In this attack hacker tries to manipulate your existing content but this is not that straight forward. Hackers put this content such that it is seen differently by search bots and normal user, also known as cloaking. This very dangerous as user will get false results for correctly searched query. This is because search engines thinks it is serving genuine content but hacker is playing in between to display false result to user. This can also be avoided by keeping it in mind while coding to not do anything special for search bots.</p></li>
+<li><p><strong>Redirects -</strong><br>In this attack hacker puts malicious code into your sites pages which will redirect user to target url. In this case target url could be anything which will affect your site’s brand value. In my case, hacker was redirecting user to his domain on which malware is hosted.</p></li>
+<li><p><strong>Injected content -</strong><br>In this attack hacker injects any malicious code into your pages. This could be very dangerous as it can potentially harm client by copying or manipulating clients data. I had come across multiple of these attacks on my site. The hacker had injected multiple eval() in theme template which was adding iframes with hacker’s malicious code. In other places hackers had injected iframes into my content not found page, which was causing redirect to other sites.</p></li>
+<li><p><strong>Added content -</strong><br>In this attack hacker adds extra content into your site like pages, posts etc. In this case it will not harm your existing content but the newly added spammy content can cause issues in your site’s search result.</p></li>
+<li><p><strong>Hidden content -</strong><br>In this attack hacker tries to manipulate your existing content but this is not that straight forward. Hackers put this content such that it is seen differently by search bots and normal user, also known as cloaking. This is very dangerous as user will get false results for correctly searched query. This is because search engines thinks it is serving genuine content but hacker is playing in between to display false result to user. This can also be avoided by keeping it in mind while coding to not do anything special for search bots.</p></li>
 </ul>
 </li>
 <li><p><strong>what you should do if your site got affected :</strong><br><br>Now comes the most important part of the discussion that what you should do if get hacked and your site gets affected. Following are the things I came across with and followed to bring my site to normal</p>
 
 <ul>
-<li><p><strong>Take your site down immediately -</strong><br>This is important for two reasons. First is that you should not keep hampering your users with malicious content until you fixed it. Second is that you should try to be out from blacklist of different search engines. Try not to give chance to search bots to crawl your site when it is being attacked and is malfunctioned</p></li>
+<li><p><strong>Take your site down immediately -</strong><br>This is important for two reasons. First is that you should not keep hampering your users with malicious content until you fix it. Second is that you should try to be out from blacklist of different search engines. Try not to give chance to search bots to crawl your site when it is being attacked and is malfunctioned</p></li>
 <li><p><strong>Contact your hosting provider -</strong><br>Most of the time if your are using shared hosting site it could be the case that the server itself is hampered with
-hacker attacks. Thats why you should first raise ticket into your hosting provider’s support forum. This was that exact case with me :’(</p></li>
+hacker attacks. That&rsquo;s why you should first raise ticket into your hosting provider’s support forum. This was that exact case with me :’(</p></li>
 <li><p><strong>Change all your security passwords -</strong><br>It could be the case where hacker has theft your security passwords. So you should try to change each and every password related to your site. You can you password generators like 1Password or KeyPass to generate more complex password which will be difficult to hack and could prevent further malicious attacks</p></li>
-<li><p><strong>Take backup of your content -</strong><br>This thing you should do frequent, to backup your site content, all your site comments,
+<li><p><strong>Take backup of your content -</strong><br>This thing you should do frequently, to backup your site content,
+all your site comments,
 like history and site database. It would be useful to you in worst case where you are unable to deal with this attack and you have to restore all from scratch.</p></li>
 <li><p><strong>Follow the community and forums -</strong><br>Most of us use CMS like Wordpress, Joomla, Magneto etc. So these CMS communities and hosting sites have fairly strong support for such kind of issues. If you are hosting your site on shared hosting then it is likely to happen that more other users are facing such hacking or malfunctioning issues.</p></li>
 <li><p><strong>Updates and Installations -</strong><br>We often don’t look security aspects of the CMS platform or plugins, we just look for user end experience of it. So it is likely that these are easy to get infected. Most of those systems keep improving their security related issues in next releases. So make sure you update and install keeping security in mind.</p></li>
-<li><p><strong>Find and remove hacks -</strong><br>There are many of ways to find out which are hacks present on your site. <a href="https://www.google.com/webmasters/">Google webmaster’s</a> security report is one of the options. Other could be security plugins which tries to find flows and hacks present on your site currently and also provide version controlling for your configurations or setting files. There are lot of <a href="https://wordpress.org/plugins/search.php?q=malware+scanner">wordpress malware scanner plugins</a> available in plugin market. After using these options you will get idea where are potential hacks present on the system. Just go and revert all the content to previous date of attack or you can manually go check for code and see whether you can find out any malicious code is there.</p></li>
+<li><p><strong>Find and remove hacks -</strong><br>There are many ways to find out which are hacks present on your site. <a href="https://www.google.com/webmasters/">Google webmaster’s</a> security report is one of the options. Other could be security plugins which try to find flaws and hacks present on your site currently and also provide version controlling for your configurations or setting files. There are lot of <a href="https://wordpress.org/plugins/search.php?q=malware+scanner">wordpress malware scanner plugins</a> available in plugin market. After using these options you will get an idea where are potential hacks are present on the system. Just go and revert all the content to previous date of attack or you can manually go check for code and see whether you can find out any malicious code is there.</p></li>
 <li><p><strong>Restore your backup -</strong><br>This the last option you should have. If nothing works for you then you can start from scratch and restore all your
 backup.</p></li>
-<li><p><strong>Ask google to review your site again -</strong><br>This is the last and most important thing you should do after cleaning all of your hacked content from your site. When you google show up the security report to you, there is option below it to ask google to review your site again. This is basically like flag raising for google to inform that I have resolved and cleaned all the malicious content from my site so please verify it and remove my blog from your blacklist.</p></li>
-<li><p><strong>Keep taking precaution for further hacking -</strong><br>So after google has removed you from its blacklist don’t be happy forever and leave as it is. It could surely the next day where you can get hacked again if you don’t follow security guidelines onwards. So stay alert and keep an eye on you site to protect it.</p></li>
+<li><p><strong>Ask google to review your site again -</strong><br>This is the last and most important thing you should do after cleaning all of your hacked content from your site. When you google show up the security report to you, there is an option below it to ask google to review your site again. This is basically like flag raising for google to inform that I have resolved and cleaned all the malicious content from my site so please verify it and remove my blog from your blacklist.</p></li>
+<li><p><strong>Keep taking precaution to avoid further hacking -</strong><br>So after google has removed you from its blacklist don’t be happy forever and leave as it is. It could surely be the next day when you can get hacked again if you don’t follow security guidelines onwards. So stay alert and keep an eye on your site to protect it.</p></li>
 </ul>
 </li>
 </ul>
@@ -80,7 +81,7 @@ backup.</p></li>
 <p>This time I learnt the lesson in a hard way. This incident really helped me in way to open my eyes towards the
 security world. Next time keep in mind that anything which you are using, don&rsquo;t use it in a blind way. Analyse all
 the aspects of your plugins, your CMS or your entire hosting platform before proceeding with it. I will suggest you
-to learn more about these kind of issues or hacks and be prepared before being next victim.</p>
+to learn more about these kind of issues or hacks and be prepared before being the next victim.</p>
 
 <p><strong>Stay alert , Stay safe !</strong></p>
 ]]></content>
