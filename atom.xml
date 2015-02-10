@@ -4,7 +4,7 @@
   <title><![CDATA[Rhushikesh's Blog]]></title>
   <link href="http://rhushikesh.github.io/atom.xml" rel="self"/>
   <link href="http://rhushikesh.github.io/"/>
-  <updated>2015-01-13T23:56:19+05:30</updated>
+  <updated>2015-02-10T12:56:42+05:30</updated>
   <id>http://rhushikesh.github.io/</id>
   <author>
     <name><![CDATA[Rhushikesh Apte]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Now Is the Time to Give It Back]]></title>
+    <link href="http://rhushikesh.github.io/blog/2015/02/09/now-is-the-time-to-give-it-back/"/>
+    <updated>2015-02-09T17:48:00+05:30</updated>
+    <id>http://rhushikesh.github.io/blog/2015/02/09/now-is-the-time-to-give-it-back</id>
+    <content type="html"><![CDATA[<p>Last month, we were discussing about all the fun and enjoyment we had in our college days. We became nostalgic while reliving our wonderful memories. I was thinking, those were the days when you get to know the real world, you start developing yourself and becoming professional, thinking about all your career aspirations and future. Your college plays a vital role in building your technological foundation.</p>
+
+<p>But when I went thinking deep about all this, I realised there were lot things which I was not at all aware of. When I joined ThoughtWorks as a fresher, all things were new and I felt scary. I was not aware of all the guidelines that we should follow while doing development. There are different kinds of design patterns which make your code more cleaner and more extendable. The version control system can help you to do more organized development be it in your own pet project or in your team&rsquo;s project. And then it hit me how different our work environment is from what is taught ( or not taught ;-) ) to us in college.</p>
+
+<p><a href="https://twitter.com/yphalcombinator">Rahul</a>, <a href="https://twitter.com/_shree33">Shridhar</a> and I came up with the solution of organising a bootcamp in our college which would help the students overcome the gap between college and professional life. We started brainstorming about what we should cover and how the whole process should go. The topics were decided to keep in mind the attention span of students and with an aim to make it hands-on and interactive. After all the efforts and preparation, we were ready to hold an object oriented bootcamp in our college.</p>
+
+<p>Response and enthusiasm from students was amazing. We had an intense two days bootcamp which went over 10 hours each day. Though the sessions were long and had quite heavy content, all the students were totally pumped up and did not show any signs of tiredness throughout the bootcamp. Below I have tried to summarize all the learnings I had in the process of  making this event a success and keeping the students engaged.</p>
+
+<ul>
+<li><strong>Course content -</strong></li>
+</ul>
+
+
+<p>This is the most important part of the bootcamp. The content should be engaging enough for audience, and which will give them feeling of some learning and fulfillment. Of course, you don’t want to have topics which are so trivial to them, making them feel bored, or too advanced that they don’t understand anything or feel overwhelmed. To decide on the content, ideally you should study your intended audience for their background, their learning style, etc. In our case we looked, which syllabus they have in their course and which all technologies and practises they follow for their project work.</p>
+
+<p align="middle">
+    <img src="http://rhushikesh.github.io/assets/images/wce_bootcamp_audience.jpg" alt="Audience" width = "800">
+</p>
+
+
+<ul>
+<li><strong>Having the right attendees -</strong></li>
+</ul>
+
+
+<p>I have been part of so many workshops in my college which I never wanted to attend, and I felt like I wasted my time just attending. We did not want our bootcamp to be one of those. After some discussion on how to find right people who would be really interested in this kind of bootcamp, we came up with a simple code test. The test was not to completely test their coding skills, but to check their interest. We thought it a fair assumption to make that, if a student is ready to spend a couple of hours for the code, it should be enough to prove their interest in programming. And we think this tactic was proven useful in our case based on how much interest attendees showed during the bootcamp.</p>
+
+<ul>
+<li><strong>Students per trainer ratio -</strong></li>
+</ul>
+
+
+<p>To be able to attend to each student, we did not try to address a huge number crowd at once. We planned to make batches in them and take bootcamps for each batch separately. Addressing each student is more important than addressing huge crowd with just glimpses of everything. In our session, we took 5 pairs of student per trainer. It helped us to give and take feedback to each individual and answer everyone’s doubts and queries.</p>
+
+<p align="middle">
+    <img src="http://rhushikesh.github.io/assets/images/wce_bootcamp_connect_with_audience.jpg" alt="Connect With Audience" width = "600">
+</p>
+
+
+<ul>
+<li><strong>Connect with the audience -</strong></li>
+</ul>
+
+
+<p>To deliver or convey concepts properly, the most important thing you need to have along with good content is the connection with the audience. We tried to be one of them. We delivered our sessions as a friend not as some specialist or a teacher. We also included our memories from college days in between sessions. To make them comfortable, we gave them examples like how we went through the same state as they are and explained to them how we took steps to learn new technologies or new languages so that we can improve ourselves.</p>
+
+<ul>
+<li><strong>Real life examples -</strong></li>
+</ul>
+
+
+<p>At first we were explaining the concepts with the help of simple and small problems e.g. modelling different shapes, like rectangle, triangle and circle etc. We found out that they were getting the concepts but not really able to appreciate the need of those concepts. Then we started giving more and more examples like modeling of timesheet management for factory, Sales management system for shopping mall. Real life examples actually helped them to visualize how these concepts will make their solution code more easy, readable and maintainable.</p>
+
+<p align="middle">
+    <img src="http://rhushikesh.github.io/assets/images/wce_bootcamp_real_life_examples.jpg" alt="Real Life Examples" width = "600">
+</p>
+
+
+<ul>
+<li><strong>Fail first and fast approach -</strong></li>
+</ul>
+
+
+<p>We followed the fail first approach. Every time we used to ask students to develop one problem statement. After they were done, we used to suggest them many refactorings to transform their attempt into  well written code. By this, rather than just listening to us they now started appreciating the need for a good design.</p>
+
+<ul>
+<li><strong>Pairing -</strong></li>
+</ul>
+
+
+<p>In first session we observed that all the students were sticking to their own thinking box. So from the next session we made them to pair with each other. It helped them a lot. Every pair was brainstorming and getting counter questions and new perspective. We also switched the pair in every session. I feel pairing is a must, not only in office work but also in most of the other situations as well.</p>
+
+<p align="middle">
+    <img src="http://rhushikesh.github.io/assets/images/wce_bootcamp_pairing.jpg" alt="Pairing" width = "700">
+</p>
+
+
+<ul>
+<li><strong>Trim all the fancy words -</strong></li>
+</ul>
+
+
+<p>Design patterns, SOLID principle, these are fancy words for students who haven’t heard before. Following fail first approach, we always introduced concepts after they have implemented it by themselves. This helped them to understand concepts very clearly as it was by code not by some fancy words.</p>
+
+<ul>
+<li><strong>Minutes of sessions -</strong></li>
+</ul>
+
+
+<p>After every session we asked students to give one take away they think is important from last session. We also used to ask them to explain the same concepts again with another example. It actually helped them to clear their understanding and we all came with various real life implementation of learned concepts.</p>
+
+<ul>
+<li><strong>Feedback -</strong></li>
+</ul>
+
+
+<p>At the end of the day, we asked them to share their feedback around what went well and what we should improve. This really helped us to improve ourselves and to deliver what they actually want. After collecting the feedback, we also got the action items to follow which will make our next attempt to take bootcamp more effective.</p>
+
+<p>After the two day heavy packed bootcamp, we realized how difficult it is and how much preparation and effort it takes to teach someone. I really want to thank everyone who took those efforts and helped me to improve myself. This workshop really helped us to learn and clear our understanding again about all those object oriented concepts. I recommend you to take steps forward to share your learning with others. It will help you and many more to learn and improve.</p>
+
+<p>Now is time to give it back :)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[In Which Our Hero's Website Gets Hacked]]></title>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rhushikesh.github.io/blog/2015/02/09/now-is-the-time-to-give-it-back/</loc>
+    <lastmod>2015-02-09T17:48:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://rhushikesh.github.io/blog/2015/01/08/in-which-our-heros-website-gets-hacked/</loc>
     <lastmod>2015-01-08T20:35:39+05:30</lastmod>
     <priority>0.8</priority>
@@ -12,13 +17,13 @@
   </url>
   <url>
     <loc>http://rhushikesh.github.io/blog/archives/</loc>
-    <lastmod>2015-01-13T23:56:19+05:30</lastmod>
+    <lastmod>2015-02-10T12:56:42+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rhushikesh.github.io/</loc>
-    <lastmod>2015-01-13T23:56:19+05:30</lastmod>
+    <lastmod>2015-02-10T12:56:42+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
